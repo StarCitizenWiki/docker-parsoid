@@ -71,9 +71,9 @@ services:
         #serverInterface: '127.0.0.1'
 
         # Enable linting of some wikitext errors to the log
-        #linting: true
+        linting: true
         # Send lint errors to MW API instead of to the log
-        #linterSendAPI: false
+        linterSendAPI: false
 
         # Require SSL certificates to be valid (default true)
         # Set to false when using self-signed SSL certificates
