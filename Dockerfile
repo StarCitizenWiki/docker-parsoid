@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-LABEL maintainer="luiz@thenets.org"
+LABEL maintainer="foxftw@star-citizen.wiki"
 
 ENV PARSOID_HOME=/var/lib/parsoid \
     PARSOID_USER=parsoid \
