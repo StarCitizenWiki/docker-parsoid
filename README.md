@@ -61,6 +61,7 @@ mwApis:
 ## Thanks
 
 - [pastakhov](https://github.com/pastakhov): Creator of the original code base.
+- [thenets](https://github.com/thenets): Maintainer of the second fork.
 - [muellermartin](https://github.com/muellermartin): Improved the documentation.
 - [endoodev1](https://github.com/endoodev1): Helped with Kubernetes compatibility.
 - [sepastian](https://github.com/sepastian): Added support to `strictSSL` using container ENV.
