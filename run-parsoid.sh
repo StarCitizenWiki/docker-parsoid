@@ -95,13 +95,10 @@ do
         echo >&2 "The $var variable must not be an empty string";
     fi
 
-    uri="${!var}"
-    domain="`echo \"${!var}\" | sed -e 's/[^/]*\/\/\([^@]*@\)\?\([^:/]*\).*/\2/'`"
-
     cat <<EOT >> config.yaml
           -
-            uri: '$uri'
-            domain: '$domain'
+            uri: '${!var}'
+            domain: '${var:15}'
 EOT
 done
 chmod 744 config.yaml
